@@ -1,4 +1,54 @@
+<?php
+//start the session
+SESSION_START();
 
+
+if (isset($_REQUEST['About']) ===true){
+    session_destroy();
+    header("Location: about us.php?About");
+    }
+elseif (isset($_REQUEST['Contact']) ===true){
+    session_destroy();
+    header("Location: contact.php?Contact");
+}
+elseif (isset($_REQUEST['Homepage']) ===true){
+    session_destroy();
+    header("Location: index.php?Homepage");
+}elseif (isset($_REQUEST['Start']) ===true){
+    session_destroy();
+    header("Location: start here.php?Start");
+}elseif (isset($_REQUEST['Manakla']) ===true){
+    session_destroy();
+    header("Location: recipe1.php?Manakla");
+}elseif (isset($_REQUEST['Ulang-ulang']) ===true){
+    session_destroy();
+    header("Location: recipe2.php?Ulang-ulang");
+}elseif (isset($_REQUEST['Kari-kari']) ===true){
+    session_destroy();
+    header("Location: recipe3.php?Kari-kari");
+}elseif (isset($_REQUEST['Bibingkang-kanin']) ===true){
+    session_destroy();
+    header("Location: recipe4.php?Bibingkang-kanin");
+}elseif (isset($_REQUEST['Saludsod']) ===true){
+    session_destroy();
+    header("Location: recipe5.php?Saludsod");
+}elseif (isset($_REQUEST['Laing']) ===true){
+    session_destroy();
+    header("Location: recipe6.php?Laing");
+}elseif (isset($_REQUEST['Kalamay-dampa']) ===true){
+    session_destroy();
+    header("Location: recipe7.php?Kalamay-dampa");
+}elseif (isset($_REQUEST['Adobo-sa-Gata']) ===true){
+    session_destroy();
+    header("Location: recipe8.php?Adobo-sa-Gata");
+}elseif (isset($_REQUEST['Tininta-suman']) ===true){
+    session_destroy();
+    header("Location: recipe9.php?Tininta-suman");
+}elseif (isset($_REQUEST['Bibingkang-pinahiran']) ===true){
+    session_destroy();
+    header("Location: recipe10.php?Bibingkang-pinahiran");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
