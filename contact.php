@@ -1,3 +1,24 @@
+<?php
+//start the session
+SESSION_START();
+
+
+if (isset($_REQUEST['Homepage']) ===true){
+    session_destroy();
+    header("Location: index.php?Homepage");
+    }
+elseif (isset($_REQUEST['About']) ===true){
+    session_destroy();
+    header("Location: about us.php?About");
+}
+elseif (isset($_REQUEST['Start']) ===true){
+    session_destroy();
+    header("Location: start here.php?Start");
+}elseif (isset($_REQUEST['Recipe']) ===true){
+    session_destroy();
+    header("Location: recipies.php?Recipe");
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
