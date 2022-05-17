@@ -1,0 +1,317 @@
+/* Style CSS */
+
+* {box-sizing: border-box;}
+body {
+margin: 0;
+font-family: Century Gothic;
+}
+.header {
+overflow: hidden;
+background-color: white;
+padding: 5px 10px;
+top: 0;
+position: fixed;
+box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+.header a {
+color: black;
+text-align: center;
+text-decoration: none;
+font-size: 15px;
+line-height: 25px;
+margin-right: 52.5px;
+margin-left: 50px;
+}
+.headera.logo {
+font-size: 25px;
+font-weight: bold;
+}
+.header a:hover {
+color: orange;
+}
+.header a.active {
+color: orange;
+}
+.header-right {
+padding-top: 10px;
+margin-right: 17px;
+margin-left: 35px;
+float: right;
+}
+@media screen and (max-width: 500px) {
+.header a {
+float: none;
+display: block;
+text-align: left;
+}
+.header-right {
+float: none;
+}
+}
+h1 {
+text-align: left;
+margin-top: 80px;
+margin-left: 60px;
+margin-right: 60px;
+background-color: gray;
+}
+h2 {
+text-align: center;
+margin-top: 80px;
+margin-left: 60px;
+margin-right: 60px;
+}
+h4 {
+text-align: center;
+margin-top: 80px;
+background-color: #CCCCFF;
+font-size: 25px;
+}
+h3 {
+float: center;
+margin-left: 160px;
+margin-right: 160px;
+text-align: center;
+}
+.dmessage {
+	margin-top: 100px;
+}
+.contents {
+margin-top: 100px;
+background-color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.contents p {
+margin-left: 160px;
+margin-right: 160px;
+text-align: justify;
+}
+.contented {
+margin-top: 30px;
+background-color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.contented p {
+margin-left: 160px;
+margin-right: 160px;
+text-align: justify;
+}
+.count {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.count img {
+position: !important;
+float: left;
+width: 366px;
+height: 260px;
+margin-left: 100px;
+}
+.count p{
+margin-top: 100px;
+margin-left: 500px;
+font-size: 20px;
+margin-right: 100px;
+text-align: justify;
+}
+.counts {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.counts img {
+position: !important;
+float: left;
+width: 366px;
+height: 260px;
+margin-left: 100px;
+}
+.counts p{
+margin-top: 100px;
+margin-left: 500px;
+font-size: 20px;
+margin-right: 100px;
+text-align: justify;
+}
+.cout {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.cout img {
+margin-top: 40px;
+margin-left: 330px;
+float: center;
+width: 566px;
+height: 460px;
+}
+.cout p{
+margin-top: 50px;
+margin-left: 100px;
+font-size: 20px;
+margin-right: 100px;
+text-align: justify;
+}
+.c3 {
+background-color: lightgray;
+t
+ext-align: left;
+font-size: 30px;
+}
+.manakla {
+	margin-left: 70px;
+}
+}
+.vegetb {
+	width: 100%;
+	height: 550px;
+}
+.vegetb img{
+	width: 100%;
+	height: 550px;
+}
+ol.recipe {
+  list-style-type: decimal;
+  columns: 3;
+  font-weight: bold;
+  color: green;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+ol.ing {
+  list-style-type: circle;
+  columns: 2;
+  line-height: 3.5;
+  margin-left: 170px;
+  margin-right: 120px;
+  }
+  ol.proc {
+  list-style-type: decimal;
+  line-height: 3;
+  margin-left: 120px;
+  margin-right: 120px;
+  }
+  div .contain {
+  	background-color: #FFFFCC;
+  	padding top: 20px;
+  	padding-bottom: 10px;
+  	margin-left: 160px;
+  	margin-right: 160px;
+  }
+
+.foot {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: orange;
+   padding-top: 5px;
+   color: black;
+   margin-top: 100px;
+   text-align: center;}
+.foot1 {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: orange;
+   padding-top: 5px;
+   color: black;
+   text-align: center;}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: orange;
+   padding-top: 5px;
+   color: black;
+   text-align: center;
+}
+   div.content{
+	width: 550px;
+	float: right;
+	min-height: 500px;
+	margin-top: 0px;
+	margin: 10px;
+	margin-right: 90px;
+}
+div.content p{
+	text-align: justify;
+	line-height: 1.5;
+}
+div.banner{
+	width: 350px;
+	height: 450px;
+	margin-left: 90px;
+}
+
+div.banner img{
+	width: 350px;
+	height: 450px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: orange;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+input[type=button] {
+  position: static;
+  margin-left: 570px;
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: lightgreen;
+}
+
