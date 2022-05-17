@@ -18,6 +18,11 @@ elseif (isset($_REQUEST['Start']) ===true){
     session_destroy();
     header("Location: recipies.php?Recipe");
 }
+// if the button is clicked
+if(isset($_REQUEST['submit_button']) === true){
+    session_destroy();
+    header("Location: index.php?Homepage");
+}
 ?>
 
 <!DOCTYPE html>
@@ -55,7 +60,7 @@ elseif (isset($_REQUEST['Start']) ===true){
       <img src="images/street-view.jpg" style="width:100%">
     </div>
 <div class="column">
-      <form method="post" action="contact-form-process.php">
+      <form method="post" href="?Recipe">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
         <label for="lname">Last Name</label>
@@ -64,7 +69,7 @@ elseif (isset($_REQUEST['Start']) ===true){
         <input type="text" id="email" name="email" placeholder="Your email here." required>
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit"></input>
+        <input type="submit" value="Submit" name="submit_button"></input>
       </form>
     </div>
   </div>
