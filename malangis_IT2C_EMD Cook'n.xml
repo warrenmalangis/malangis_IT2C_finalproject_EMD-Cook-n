@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE EMD-Cook-n [
+	<!ELEMENT EMD-Cook-n (top-navigation-bar)>
+	<!ELEMENT top-navigation-bar (home, recipe, start-here, about-us, contact-us)>
+	<!ELEMENT home (introduction)>
+	<!ELEMENT introduction (#PCDATA)>
+	<!ELEMENT recipe (title, description, ingredients, procedure)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT ingredients (#PCDATA)>
+	<!ELEMENT procedure (#PCDATA)>
+	<!ELEMENT start-here (get-started, recipe-intro)>
+	<!ELEMENT get-started (#PCDATA)>
+	<!ELEMENT recipe-intro (#PCDATA)>
+	<!ELEMENT about-us (#PCDATA)>
+	<!ELEMENT contact-us (input)>
+	<!ELEMENT input (#PCDATA)>
+
+	<!ATTLIST home xmlns:urlxml CDATA #REQUIRED>
+	<!ATTLIST recipe number CDATA #REQUIRED>
+	<!ATTLIST recipe xmlns:urlxml CDATA #REQUIRED>
+	<!ATTLIST start-here xmlns:urlxml CDATA #REQUIRED>
+	<!ATTLIST about-us xmlns:urlxml CDATA #REQUIRED>
+	<!ATTLIST contact-us xmlns:urlxml CDATA #REQUIRED>
+]>
+
+
+<EMD-Cook-n>
+
+	<top-navigation-bar>
+	<home xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/index.php?Homepage">
+		<introduction> There are many reasons to visit Marinduque, a heart-shaped island province in the Philippines found in the country’s Southwestern Tagalog Region or MIMAROPA. Marinduque is best known for its annual Moriones Festival that takes place during the Holy Week. It’s one of the oldest festivals in the Philippines where locals don colorful masks and costumes to reenact the story of the Roman soldier, Longinus. Other than during the Moriones Festival, travelers can visit Marinduque all year round for its uncrowded white-sand beaches, gorgeous landscapes, scenic tours, historical landmarks, and of course, its cuisine. Marinduque’s unique cuisine and its native delicacies are one of the reasons why you should visit the province.</introduction>
+	</home>
+
+	<recipe number ="01" xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/recipe1.php?Manakla">
+		<title> Manakla </title>
+		<date> January 8, 2013 </date>
+		<author> Dolly Dy-Zulueta </author>
+		<description> Marinduque cuisine is a haven for seafood lovers. Manakla is the local Marinduque word for crayfish, and it’s a variety of crayfish especially popular in Marinduque, and is regularly used as a protein for every type of recipe you can think of. In seaside bars and restaurants, manakla is popularly cooked in pulutan recipes or beer/alcohol snacks. No matter which recipe manakla is used, the results are always something that visitors will order seconds for. </description>
+	</recipe>
+
+	<recipe number ="02" xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/recipe2.php?Ulang-ulang">
+		<title> Ulang-ulang </title>
+		<date> April 29, 2021  </date>
+		<author> Marjorie M. Limpiada </author>
+		<description> Ulang-ulang is one of the top must-try native dishes in Marinduque. It’s a seafood dish made of crab meat from a native variety of crab in Marinduque called kagang. The crab meat is cooked with shredded coconut and coconut milk and other ingredients like onion, garlic, and kalamansi juice. It’s then served inside a crab shell wrapped in banana leaves. Opening this wrapped dish is like opening a delicious seafood present. </description>
+	</recipe>
+
+	<recipe number ="03" xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/recipe3.php?Kari-kari">
+		<title> Kari-kari </title>
+		<date> July 03, 2016 </date>
+		<author> Glenn Deligero </author>
+		<description> In most parts of Luzon, Kare-kare is popular comfort food made up of oxtail stew with rich peanut butter sauce. This savory stew is very different from Marinduque’s version of kare-kare. In Marinduque, kare-kare, or as they call it Kari-Kari, is a cross between bopis and dinuguan. It’s like bopis with pork blood and a dried version of dinuguan. Marinduque’s Kari-Kari is made up of the pig’s innards like its heart, small intestines, kidneys, spleen, and blood. It’s also cooked with garlic, onion, and chili peppers. </description>
+	</recipe>
+
+	<recipe number ="04" xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/recipe5.php?Saludsod">
+		<title> Saludsod </title>
+		<date> May 23, 2019 </date>
+		<author> Idol sa Kusina </author>
+		<description> Saludsod is Marinduque’s native version of pancakes. It’s a popular local delicacy that visitors absolutely must try when in Marinduque as they’ll never find this anywhere else in the Philippines. This local pancake is made with a special batter using native ingredients, including arrowroot powder, coconut milk, flour, and sugar. The batter is then cooked on a hot pan just like a typical pancake. But saludsod is sweeter in flavor and has a creamy/buttery texture. </description>
+	</recipe>
+
+	<recipe number ="05" xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/recipe6.php?Laing">
+		<title> Laing </title>
+		<date> December 13, 2020 </date>
+		<author> Vanjo Merano </author>
+		<description> There are loads of laing recipes authentic to the different regions of the Philippines. In Marinduque, they have their own native laing recipe or what they also call pinaso na gabi. Marinduque’s delicious native laing recipe uses both gabi (also known as taro) leaves and roots. These ingredients are cooked with coconut milk. To give the dish tastier flavors, shrimp paste or bagoong is also mixed in the dish. For an added highlight, dried fish or dilis is sprinkled on top. </description>
+	</recipe>
+
+	<recipe number ="06" xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/recipe4.php?Bibingkang-kanin">
+		<title> Bibingkang Kanin </title>
+		<date> January 21, 2018 </date>
+		<author> Pilipinas Recipe </author>
+		<description> Bibingkang Kanin, just like bibingkang lalaki and bibingkang pinahiran, is a unique version of the popular kakanin, bibingka, originated in the island province of Marinduque. As indicated by its namesake, bibingkang Kanin uses whole grains of glutinous rice rather than the typical rice flour used in other bibingka recipes. Bibingkang Kanin is often interchanged with bibingkang malagkit. </description>
+
+	</recipe>
+
+	<recipe number ="07" xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/recipe7.php?Kalamay-dampa">
+		<title> Kalamay-dampa </title>
+		<date> March 04, 2020 </date>
+		<author> Vanjo Merano </author>
+		<description> Kalamay-dampa is the popular Marinduque variety of the more known kalamay-hati. Kalamay is the general term for this typical recipe of both the variety of kalamay-dampa and kalamay-hati. Kalamay is made up of ground glutinous rice, coconut milk, and brown sugar. It’s popularly served in a coconut shell or in slices on banana leaves. Kalamay-hati is a viscous version of kalamay where the glutinous rice is ungrounded. Kalamay-dampa is just like kalamay-hati, except ube is used in the recipe, giving it a rich purple color and ube flavor. </description>
+	</recipe>
+
+	<recipe number ="08" xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/recipe8.php?Adobo-sa-Gata">
+		<title> Adobo sa Gata </title>
+		<date> April 14, 2020 </date>
+		<author> Vanjo Merano </author>
+		<description> Marinduqueños holds a special place in their hearts for adobo sa gata. Adobo is the Philippines’ unofficial national dish, but adobo sa gata is Marinduque’s version of adobo that they call their own. Native chicken is used then marinated and reduced in the typical adobo marinade recipe except with coconut milk. Marinduqueños also adds slices of green papaya and a dash of turmeric to turn it yellow in color. </description>
+	</recipe>
+
+	<recipe number ="09" xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/recipe9.php?Tininta-suman">
+		<title> Tininta Suman </title>
+		<date> October 01, 2021 </date>
+		<author> Lalaine Manalo </author>
+		<description> You can find the kakanin suman in many parts of the Philippines. Suman is usually made up of glutinous rice cooked in coconut milk and wrapped in banana leaves or palm leaf strips. These sticky native rice delicacies are often eaten with sugar or latik. In Marinduque, they have a unique version of suman called tininta suman. It’s known for its vibrant purple hue because it’s made up of violet glutinous rice. Marinduqueños love to pair tininta suman with sampililok or coco jam. </description>
+
+	</recipe>
+
+	<recipe number ="10" xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/recipe10.php?Bibingkang-pinahiran">
+		<title> Bibingkang Pinahiran </title>
+		<date> January 21, 2018 </date>
+		<author> Pilipinas Recipe </author>
+		<description> Bibingkang Pinahiran uses typical bibingka ingredients like glutinous rice, coconut milk, and sugar. What makes it stand out from other versions of bibingka is the thick spread of a syrup layer on top. This likely is the origin of its name with pinahiran translating to coated. One serving of this sweet bibingkang pinahiran guarantees a heavy stomach. </description>
+
+	<start-here xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/start%20here.php?Start"> 
+		<get-started> Hello! Welcome to EMD Cook'n. My name is Warren Malangis. I am the person behind emdcook-n.com. If you want to learn how to cook and get free access to thousands of delicious recipes, you came to the right place. This website contains all the information to develop your cooking skills and prepare delicious dishes the easy way. Please feel free to browse around, or use the buttons below to navigate within the page. </get-started>
+		<recipe-intro> This website is all about sharing my tried and tested recipes to you for free. I even went the extra mile by personally shooting cooking videos for your convenience. I hope that you will find both the recipes and cooking videos useful. I am doing all these things for free because I want to help in my own little way. I always believe that being of service to others and sharing what you have without expecting anything in return is the best thing that anyone can do. Recipes are the heart and soul of this food blog. You will find all our family recipes in this blog, as well as recipes that I developed and enhanced. I always do my best to put quality in everything I do because my readers (YOU are one of them) deserve only the best! </recipe-intro>
+	</start-here>
+
+	<about-us xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/about%20us.php?About">My name is Warren Malangis. I live in Cawit, Boac, Marinduque. I created EMD Cook'n (Marinduque Cooking Recipe), to share the best Marinduqueños recipes to everyone. </about-us>
+
+	<contact-us xmlns:urlxml="http://localhost/malangis_IT2C_finalproject_EMD%20Cook'n/contact.php?Contact">
+		<input> First Name </input>
+		<input> Last Name </input>
+		<input> Email </input>
+		<input> Subject </input>
+	</contact-us>
+
+	</recipe>
+	</top-navigation-bar>
+</EMD-Cook-n>
