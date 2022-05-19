@@ -47,10 +47,13 @@ elseif (isset($_REQUEST['Homepage']) ===true){
 <br>
 <br>
 
+    <h4>Kari-kari</h4>
+
 <div class="cout">
     <img src="images/kari-kari.jpg">
 
-    <h3>Kari-kari</h3>
+    <h3> July 03, 2016    |    by: Glenn Deligero</h3>
+
 
     <?php
 
@@ -71,22 +74,26 @@ echo "<p>Marinduque’s Kari-Kari is made up of the pig’s innards like its hea
 
 <ol class="ing">
 
-  <li>1 pc. pig's heart</li>
-  <li>1 pc. pig's spleen</li>
-  <li>1 pc. pig's kidney</li>
-  <li>1 pc. pig's small intestine</li>
-  <li>salt to taste</li>
-  <li>2 Tbsps. vegetable oil</li>
-  <li>6-7 cloves garlic, chopped</li>
-  <li>freshly cracked black pepper</li>
-  <li>2 pcs. big onions, chopped</li>
-  <li>2 tsps. soy sauce</li>
-  <li>1 tsp. liquid seasoning</li>
-  <li>dash of monosodium glutamate</li>
-  <li>1 tsp. sugar</li>
-  <li>3 Tbsp. vinegar</li>
-  <li>birds eye chili</li>
-  <li>1 cup fresh pig's blood</li>
+    <?php
+
+  echo "<li>1 pc. pig's heart</li>";
+  echo "<li>1 pc. pig's spleen</li>";
+  echo "<li>1 pc. pig's kidney</li>";
+  echo "<li>1 pc. pig's small intestine</li>";
+  echo "<li>salt to taste</li>";
+  echo "<li>2 Tbsps. vegetable oil</li>";
+  echo "<li>6-7 cloves garlic, chopped</li>";
+  echo "<li>freshly cracked black pepper</li>";
+  echo "<li>2 pcs. big onions, chopped</li>";
+  echo "<li>2 tsps. soy sauce</li>";
+  echo "<li>1 tsp. liquid seasoning</li>";
+  echo "<li>dash of monosodium glutamate</li>";
+  echo "<li>1 tsp. sugar</li>";
+  echo "<li>3 Tbsp. vinegar</li>";
+  echo "<li>birds eye chili</li>";
+  echo "<li>1 cup fresh pig's blood</li>";
+
+    ?>
 
 </ol>
 <br>

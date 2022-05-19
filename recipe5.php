@@ -47,10 +47,13 @@ elseif (isset($_REQUEST['Homepage']) ===true){
 <br>
 <br>
 
+    <h4>Saludsod</h4>
+
 <div class="cout">
     <img src="images/saludsod.jpg">
 
-    <h3>Saludsod</h3>
+    <h3> May 23, 2019    |    by:Idol sa Kusina</h3>
+
 
     <?php
 
@@ -70,10 +73,14 @@ echo "<p>The batter is then cooked on a hot pan just like a typical pancake. But
 
 <ol class="ing">
 
-  <li>2 pcs Arrow Root (Peeled & Grated)</li>
-  <li>1 Cup Flour</li>
-  <li>2 Cups Coconut Milk</li>
-  <li>3 Tbsp Sugar</li>
+    <?php
+
+  echo "<li>2 pcs Arrow Root (Peeled & Grated)</li>";
+  echo "<li>1 Cup Flour</li>";
+  echo "<li>2 Cups Coconut Milk</li>";
+  echo "<li>3 Tbsp Sugar</li>"
+
+    ?>
 
 </ol>
 <br>

@@ -47,10 +47,12 @@ elseif (isset($_REQUEST['Homepage']) ===true){
 <br>
 <br>
 
+    <h4>Ulang-ulang</h4>
+
 <div class="cout">
     <img src="images/ulang-ulang.jpg">
+    <h3> April 29, 2021    |    by: Marjorie M. Limpiada</h3>
 
-    <h3>Ulang-ulang</h3>
 
     <?php
 
@@ -70,12 +72,16 @@ echo "<p>The crab meat is cooked with shredded coconut and coconut milk and othe
 
 <ol class="ing">
 
-  <li>15 pieces of kagang</li>
-  <li>20 pieces of coconut apple (bingi)</li>
-  <li>1 piece of coconut (niyog)</li>
-  <li>3 pieces of onions</li>
-  <li>2 cloves of garlic</li>
-  <li>1 tablespoon of ground pepper pinch of salt</li>
+    <?php
+
+  echo "<li>15 pieces of kagang</li>";
+  echo "<li>20 pieces of coconut apple (bingi)</li>";
+  echo "<li>1 piece of coconut (niyog)</li>";
+  echo "<li>3 pieces of onions</li>";
+  echo "<li>2 cloves of garlic</li>";
+  echo "<li>1 tablespoon of ground pepper pinch of salt</li>";
+
+    ?>
 
 </ol>
 <br>

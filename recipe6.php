@@ -47,10 +47,14 @@ elseif (isset($_REQUEST['Homepage']) ===true){
 <br>
 <br>
 
+    <h4>Laing</h4>
+
 <div class="cout">
     <img src="images/laing.jpg">
 
-    <h3>Laing</h3>
+    <h3> December 13, 2020    |    by:Vanjo Merano</h3>
+
+
 
     <?php
 
@@ -69,15 +73,19 @@ echo "<p>To give the dish tastier flavors, shrimp paste or bagoong is also mixed
 
 <ol class="ing">
 
-  <li>3.5 oz taro leaves dried</li>
-  <li>6 cups coconut milk</li>
-  <li>2 cups coconut cream</li>
-  <li>1/2 cup shrimp paste bagoong</li>
-  <li>1/2 lb. pork shoulder thinly sliced</li>
-  <li>5 to 7 pieces red chilies</li>
-  <li>1 piece onion sliced</li>
-  <li>1/2 cup sliced ginger</li>
-  <li>1/2 cup sliced ginger</li>
+    <?php
+
+  echo "<li>3.5 oz taro leaves dried</li>";
+  echo "<li>6 cups coconut milk</li>";
+  echo "<li>2 cups coconut cream</li>";
+  echo "<li>1/2 cup shrimp paste bagoong</li>";
+  echo "<li>1/2 lb. pork shoulder thinly sliced</li>";
+  echo "<li>5 to 7 pieces red chilies</li>";
+  echo "<li>1 piece onion sliced</li>";
+  echo "<li>1/2 cup sliced ginger</li>";
+  echo "<li>1/2 cup sliced ginger</li>";
+
+    ?>
 
 </ol>
 <br>

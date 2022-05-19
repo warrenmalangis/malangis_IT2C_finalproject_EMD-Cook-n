@@ -47,10 +47,12 @@ elseif (isset($_REQUEST['Homepage']) ===true){
 <br>
 <br>
 
+    <h4>Bibingkang Pinahiran</h4>
+
 <div class="cout">
     <img src="images/bibingkang-pinahiran.jpg">
 
-    <h3>Bibingkang Pinahiran</h3>
+<h3> January 21, 2018    |    by:Pilipinas Recipe</h3>
 
     <?php
 
@@ -72,11 +74,15 @@ echo "<p>This likely is the origin of its name with pinahiran translating to coa
 
 <ol class="ing">
 
-  <li>6 cups coconut milk</li>
-  <li>3 cups glutinous rice, washed</li>
-  <li>1 1/2cup brown sugar</li>
-  <li>1 tsp salt</li>
-  <li>Banana Leaves</li>
+    <?php
+
+  echo "<li>6 cups coconut milk</li>";
+  echo "<li>3 cups glutinous rice, washed</li>";
+  echo "<li>1 1/2cup brown sugar</li>";
+  echo "<li>1 tsp salt</li>";
+  echo "<li>Banana Leaves</li>";
+
+    ?>
 
 </ol>
 <br>

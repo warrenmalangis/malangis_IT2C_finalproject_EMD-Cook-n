@@ -47,10 +47,13 @@ elseif (isset($_REQUEST['Homepage']) ===true){
 <br>
 <br>
 
+    <h4>Tininta Suman</h4>
+
 <div class="cout">
     <img src="images/tininta suman.jpg">
 
-    <h3>Tininta Suman</h3>
+    <h3> October 01, 2021    |    by:Lalaine Manalo</h3>
+
 
     <?php
 
@@ -70,12 +73,16 @@ echo "<p>It’s known for its vibrant purple hue because it’s made up of viole
 
 <ol class="ing">
 
-  <li>2 cups purple tinted glutinous rice</li>
-  <li>1 tsp. salt</li>
-  <li>2 cups fresh coconut milk</li>
-  <li>water for boiling</li>
-  <li>1 cup sugar (brown or white)</li>
-  <li>coconut leaves for wrapping</li>
+    <?php
+
+  echo "<li>2 cups purple tinted glutinous rice</li>";
+  echo "<li>1 tsp. salt</li>";
+  echo "<li>2 cups fresh coconut milk</li>";
+  echo "<li>water for boiling</li>";
+  echo "<li>1 cup sugar (brown or white)</li>";
+  echo "<li>coconut leaves for wrapping</li>";
+
+    ?>
 
 </ol>
 <br>

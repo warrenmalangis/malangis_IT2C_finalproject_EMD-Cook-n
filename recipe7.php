@@ -47,10 +47,12 @@ elseif (isset($_REQUEST['Homepage']) ===true){
 <br>
 <br>
 
+    <h4>Kalamay Dampa</h4>
+
 <div class="cout">
     <img src="images/kalamay-dampa.jpg">
 
-    <h3>Kalamay Dampa</h3>
+    <h3> March 04, 2020    |    by:Vanjo Merano</h3>
 
     <?php
 
@@ -70,10 +72,14 @@ echo "<p>Kalamay-hati is a viscous version of kalamay where the glutinous rice i
 
 <ol class="ing">
 
-  <li>2 cups glutinous rice flour</li>
-  <li>2 cups equivalent of palm sugar, roughly 9-10 small pieces (the final colour of Kalamay will depend on this, I used the Thai palm sugar which is lighter in colour)</li>
-  <li>4 cups coconut milk/li>
-  <li>banana leaf</li>
+    <?php
+
+  echo "<li>2 cups glutinous rice flour</li>";
+  echo "<li>2 cups equivalent of palm sugar, roughly 9-10 small pieces (the final colour of Kalamay will depend on this, I used the Thai palm sugar which is lighter in colour)</li>";
+  echo "<li>4 cups coconut milk/li>";
+  echo "<li>banana leaf</li>";
+
+    ?>
 
 </ol>
 <br>

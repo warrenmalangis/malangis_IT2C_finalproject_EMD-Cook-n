@@ -47,10 +47,12 @@ elseif (isset($_REQUEST['Homepage']) ===true){
 <br>
 <br>
 
+    <h4>Adobo sa Gata</h4>
+
 <div class="cout">
     <img src="images/adobo-sa-gata.jpg">
 
-    <h3>Adobo sa Gata</h3>
+    <h3> April 14, 2020    |    by:Vanjo Merano</h3>
 
     <?php
 
@@ -70,15 +72,19 @@ echo "<p>Native chicken is used then marinated and reduced in the typical adobo 
 
 <ol class="ing">
 
-  <li>1 ½ lbs chicken cut into serving pieces</li>
-  <li>2 cups coconut milk</li>
-  <li>1 piece Knorr Chicken Cube</li>
-  <li>½ cup white vinegar</li>
-  <li>¼ cup soy sauce</li>
-  <li>6 cloves garlic</li>
-  <li>5 pieces bay leaves dried</li>
-  <li>2 teaspoons whole peppercorn</li>
-  <li>3 tablespoons cooking oil</li>
+    <?php
+
+  echo "<li>1 ½ lbs chicken cut into serving pieces</li>";
+  echo "<li>2 cups coconut milk</li>";
+  echo "<li>1 piece Knorr Chicken Cube</li>";
+  echo "<li>½ cup white vinegar</li>";
+  echo "<li>¼ cup soy sauce</li>";
+  echo "<li>6 cloves garlic</li>";
+  echo "<li>5 pieces bay leaves dried</li>";
+  echo "<li>2 teaspoons whole peppercorn</li>";
+  echo "<li>3 tablespoons cooking oil</li>";
+
+    ?>
 
 </ol>
 <br>

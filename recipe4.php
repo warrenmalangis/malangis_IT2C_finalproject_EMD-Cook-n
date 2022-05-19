@@ -46,10 +46,13 @@ elseif (isset($_REQUEST['Homepage']) ===true){
 <br>
 <br>
 
+    <h4>Bibingkang Kanin</h4>
+
 <div class="cout">
     <img src="images/bibingkang-kanin.jpg">
 
-    <h3>Bibingkang Kanin</h3>
+    <h3> January 21, 2018    |    by: Pilipinas Recipe</h3>
+
 
     <?php
 
@@ -69,12 +72,16 @@ echo "<p>As indicated by its namesake, bibingkang Kanin uses whole grains of glu
 
 <ol class="ing">
 
-  <li>2 cups glutinous rice sweet rice or malagkit, washed</li>
-  <li>2 1/4 cups brown sugar</li>
-  <li>4 cups coconut milk</li>
-  <li>2 cups coconut cream</li>
-  <li>1/2 tsp salt</li>
-  <li>banana leaves</li>
+    <?php
+
+  echo "<li>2 cups glutinous rice sweet rice or malagkit, washed</li>";
+  echo "<li>2 1/4 cups brown sugar</li>";
+  echo "<li>4 cups coconut milk</li>";
+  echo "<li>2 cups coconut cream</li>";
+  echo "<li>1/2 tsp salt</li>";
+  echo "<li>banana leaves</li>";
+
+    ?>
 
 </ol>
 <br>

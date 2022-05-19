@@ -47,10 +47,13 @@ elseif (isset($_REQUEST['Homepage']) ===true){
 <br>
 <br>
 
+    <h4>Manakla</h4>
+
 <div class="cout">
     <img src="images/manakla.jpg">
+    <h3> January 8, 2013    |    by: Dolly Dy-Zulueta</h3>
 
-    <h3>Manakla</h3>
+
 
 <?php
 
@@ -69,11 +72,15 @@ echo "<p>No matter which recipe manakla is used, the results are always somethin
 
 <ol class="ing">
 
-  <li>1 kg. manakla (crayfish)</li>
-  <li>½ cup Sprite</li>
-  <li>4 cloves garlic, chopped</li>
-  <li>salt and pepper to taste</li>
-  <li>3 tbsps. cooking oil</li>
+    <?php
+
+  echo "<li>1 kg. manakla (crayfish)</li>";
+  echo "<li>½ cup Sprite</li>";
+  echo "<li>4 cloves garlic, chopped</li>";
+  echo "<li>salt and pepper to taste</li>";
+  echo "<li>3 tbsps. cooking oil</li>";
+
+    ?>
 
 </ol>
 <br>
