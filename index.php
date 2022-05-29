@@ -49,7 +49,7 @@ elseif (isset($_REQUEST['Recipe']) ===true){
         <style>
             body {
                 background-image: url("images/foodsbg.jpg");
-                background-size: 1230px 670px;
+                background-size: 1380px 670px;
             }
         </style>
 
